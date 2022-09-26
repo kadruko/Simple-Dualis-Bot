@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="DualisBotScript:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DualisBotScript_jar</output-path>
+    <root id="archive" name="DualisBot.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../DualisBotScript/src/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="DualisBot" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Java Libs/Jsoup/jsoup-1.13.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Java Libs/json/json-20200518.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
